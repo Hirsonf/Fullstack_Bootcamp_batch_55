@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<head lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/style.css" />
+        <!-- <link rel="stylesheet" href="./css/contact.css" /> -->
+    </head>
+
+<body>
+    <nav id="navbar_id" class="navbar">
+        <div class="container">
+            <div class="navbar-container">
+                <div class="logo">
+                    <img src="./image/img_2.png" />
+                </div>
+                <div class="content-navbar">
+                    <ul>
+                        <li class="nav-link">
+                            <a href="#" class="active" target="_blank">Home</a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank"> My Project</a>
+                        </li>
+                    </ul>
+                    <div class="btn-contact">
+                        <a href="#">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div style="position: center; margin: 50px; text-align: center;">
+        <h1>
+            Add My Project
+        </h1>
+    </div>
+    <div class="blog">
+        <form class="form-upload">
+            <div class="form-group">
+                <label for="project">Project Name</label>
+                <input type="text" id="inputTitle" class="form-control">
+            </div>
+            <div class="start_end_date_content">
+                <div class="item_start_and_date">
+                    <label for="text">Start Date</label>
+                    <input type="text" class="form-control" id="inputDate1" name="">
+                </div>
+                <div class="item_start_and_date">
+                    <label for="date">End Date</label>
+                    <input type="text" class="form-control" id="inputDate2" name="text">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="description">Description</label>
+                <textarea class="form-control" id="inputDescription"> </textarea>
+            </div>
+            <div class="project-details">
+                <label>Tecnologies</label>
+                <div class="list-project">
+                    <div class="input_js">
+                        <div class="item_input">
+                            <input type="checkbox" name="nodejs" id="input_js">
+                            <label for="inputnodejs">Node Js</label>
+                        </div>
+                        <div class="item_input">
+                            <input type="checkbox" name="reactjs" id="input_js">
+                            <label for="inputreactjs">Next Js</label>
+                        </div>
+                    </div>
+                    <div class="input_js">
+                        <div class="item_input">
+                            <input type="checkbox" name="nextjs" id="input_nextjs">
+                            <label for="inputnextjs">React Js</label>
+                        </div>
+                        <div class="item_input">
+                            <input type="checkbox" name="typescript" id="input_nextjs">
+                            <label for="inputtypescript">typescript</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="file">
+                    <label for="image">Upload emage</label>
+                    <input type="file" id="inputImage" class="file-input">
+                </div>
+            </div>
+            <div class="button-input">
+                <input type="submit" value="submit" padding="5px">
+            </div>
+        </form>
+        <hr class="line">
+        <div id="content" class="blog-list">
+        </div>
+    </div>
+    <script src="./js/blog.js"></script>
+</body>
+</head>
+
+</html>

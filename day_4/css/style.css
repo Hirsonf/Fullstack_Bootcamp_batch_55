@@ -1,0 +1,203 @@
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    display:auto;
+    align-items: center;
+    
+}
+
+.navbar {
+    background-color:  rgb(238,238,238);
+    /* height: 40px; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar .navbar-container .logo {
+    width: 48px;
+    height: 48px;
+}
+.navbar .navbar-container .logo  img{
+    width: 100%;
+    height: 100%;
+}
+.navbar .content-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.navbar .content-navbar .btn-contact a{
+    text-decoration: none;
+    background-color: #000;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 16px;
+    padding-left: 16px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.navbar .navbar-container {
+    display: flex;
+    justify-content: start;
+    align-content: center;
+}
+.navbar .content-navbar ul {
+    display: flex;
+    justify-content: center;
+    align-content: center ;
+    list-style: none;
+    gap: 30px;
+}
+.navbar .content-navbar ul li a {
+    text-decoration: none;
+    color:  #000;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+.navbar .content-navbar ul li a:hover {
+    font-weight: 800;
+    border-bottom: 1px solid #000;
+}
+.navbar .content-navbar ul li a:focus {
+    font-weight: 800;
+    border-bottom: 1px solid #000;
+}
+.navbar .content-navbar ul li .active {
+    font-weight: 800;
+    border-bottom: 1px solid #000;
+}
+
+/* this parent blog*/
+
+.blog{
+font-size: 17px;   
+background-color: rgb(220, 245, 245);
+margin-top: 20px;
+margin-left: 20%;
+margin-right: 20%;
+}
+
+.form-upload {
+    padding: 16px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.form-group textarea {
+    min-height: 130px;
+}
+.file{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-bottom: 10px;
+}
+.blog .form-upload .button-input {
+    display: flex;
+    justify-content: flex-end;
+}
+.blog .form-upload .button-input input{
+    background-color: #000;
+    border-radius: 8px;
+    color: #fff;
+    padding: 10px 14px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    cursor: pointer;
+}
+
+.blog hr{
+    border: 1px solid;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+.start_end_date_content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 10px; 
+    padding-top: 10px;
+}
+.start_end_date_content .item_start_and_date{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.form-control{
+    border: 0;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.project-details.input_js {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+}
+.project-details.input_nextjs{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: flex-end;
+}
+.input_js{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    gap:50px;
+    justify-content: 100px;
+}
+.list-project {
+    display: flex;
+    flex-direction: column;
+}
+.list-project .input_js {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.file .file-input{
+    border: 0px;
+    background: #fff;
+    font-size: 20px;
+    color: #000;
+    width: 100%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
